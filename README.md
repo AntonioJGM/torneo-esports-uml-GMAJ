@@ -51,9 +51,9 @@ Incluye diagramas UML y diseño modular basado en POO.
 3.	Consultar lista de equipos y jugadores
 #### Relaciones entre casos:
 
-•	“Añadir jugadores” puede incluir el caso de “Registrar equipo” si el equipo no existe aún (<<include>>).
+•	“Añadir jugadores” puede incluir el caso de “Registrar equipo” si el equipo no existe aún (include).
 
-•	“Consultar lista de equipos y jugadores” podría extender tanto a equipos como jugadores (<<extend>>).
+•	“Consultar lista de equipos y jugadores” podría extender tanto a equipos como jugadores (extend).
 
 ![Diagrama de casos de uso](diagrams/casos-uso.png)
 
