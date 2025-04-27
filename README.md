@@ -22,15 +22,23 @@ Incluye diagramas UML y diseño modular basado en POO.
 
 ### Actores principales:
   •	Administrador: gestiona equipos, jugadores y torneos.
+  
   •	Jugador: forma parte de un equipo.
+
   •	Sistema: responde a las acciones del administrador.
+  
 ### Acciones del administrador (casos de uso solicitados):
   •	Registrar equipo.
+  
   •	Añadir jugadores a un equipo.
+  
   •	Consultar lista de equipos y jugadores.
+  
 ### Relaciones entre entidades:
   •	Un equipo tiene uno o varios jugadores.
+  
   •	Los jugadores pertenecen a un único equipo.
+  
   •	El administrador puede crear y modificar equipos y jugadores.
 
 ## Diagrama de casos de uso
@@ -42,7 +50,9 @@ Incluye diagramas UML y diseño modular basado en POO.
 2.	Añadir jugadores a un equipo
 3.	Consultar lista de equipos y jugadores
 #### Relaciones entre casos:
+
 •	“Añadir jugadores” puede incluir el caso de “Registrar equipo” si el equipo no existe aún (<<include>>).
+
 •	“Consultar lista de equipos y jugadores” podría extender tanto a equipos como jugadores (<<extend>>).
 
 ![Diagrama de casos de uso](diagrams/casos-uso.png)
