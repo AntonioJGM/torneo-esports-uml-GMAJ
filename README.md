@@ -58,17 +58,23 @@ Incluye diagramas UML y diseño modular basado en POO.
 ![Diagrama de casos de uso](diagrams/casos-uso.png)
 
 ## Identificación de clases y relaciones
+
 ### Clases principales:
+
 #### Entidades:
+
 ##### Equipo
   o Atributos: nombre, listaJugadores
   o	Métodos: agregarJugador(), listarJugadores()
+  
 ##### Jugador
   o	Atributos: nombre, nick, edad
   o	Métodos: getNombre(), getNick(), getEdad().
+  
 #### Control:
 ##### GestorEquipos
   o	Métodos: registrarEquipo(), añadirJugador(), consultarEquipos()
+  
 #### Interfaz:
 ##### VistaConsola (simulada en este ejercicio)
   o	Métodos: mostrarMenu(), pedirDatos(), mostrarEquipos()
@@ -96,6 +102,12 @@ Incluye diagramas UML y diseño modular basado en POO.
   + pedirDatosEquipo(): String
   + pedirDatosJugador(): Jugador
   + mostrarListaEquipos(equipos: List<Equipo>): void
+
+### Relaciones:
+
+  - Equipo tiene una composición de Jugador (un equipo contiene jugadores, si el equipo se elimina, sus jugadores también).
+  - GestorEquipos controla los objetos de tipo Equipo.
+  - VistaConsola interactúa con GestorEquipos para ejecutar acciones.
 
 ![Diagrama de clases](diagrams/clases.png)
 
