@@ -6,11 +6,16 @@ Antonio José García Molina
 
 ## Descripción del Proyecto
 Proyecto creado para la asigantura de entornos de desarrollo del grado superior de DAW.
+
 Este proyecto se enfoca en el diseño de un sistema de gestión de torneos de eSports. En concreto se
 centra en la parte de gestión de equipos, encontramos tres funcionalidades: 
+
   o Registrar equipo.
+  
   o Añadir jugadores a un equipo.
+  
   o Consultar lista de equipos y jugadores.
+  
 Incluye diagramas UML y diseño modular basado en POO.
 
 ## Análisis del problema y requisitos del sistema
