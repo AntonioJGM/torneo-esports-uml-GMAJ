@@ -65,7 +65,7 @@ Incluye diagramas UML y diseño modular basado en POO.
   o	Métodos: agregarJugador(), listarJugadores()
 ##### Jugador
   o	Atributos: nombre, nick, edad
-  o	Métodos: getNombre(), getNick(), etc.
+  o	Métodos: getNombre(), getNick(), getEdad().
 #### Control:
 ##### GestorEquipos
   o	Métodos: registrarEquipo(), añadirJugador(), consultarEquipos()
